@@ -6,7 +6,7 @@ If you need a self-host version, not using vscode.dev, you can check out [linuxs
 
 ## Docker Compose
 
-If you see permission error, then you must ``chown -R $(whoami):$(whoami) volume_path``.
+If you see permission error, then you must ``chown 1000:1000 volume_path``.
 
 After you startup container, using ``docker compose logs`` to setup workspace!
 
